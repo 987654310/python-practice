@@ -1,0 +1,6 @@
+for a in range(5, 0, -1):
+    c = ""
+    for b in range(1, a + 1):
+        b = str(b)
+        c = c + b
+    print(c)
